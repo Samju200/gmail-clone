@@ -1,0 +1,74 @@
+.sendmail {
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+
+  width: 40%;
+  /* height: 40%; */
+  max-width: 700px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+  z-index: 999;
+}
+
+.sendmail_header {
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  border-bottom: 1px solid whitesmoke;
+  background-color: #404040;
+}
+.sendmail_header > h2 {
+  color: whitesmoke;
+  font-size: 13px;
+}
+.sendmail_option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sendmail_send {
+  background-color: #3079ed !important;
+  text-transform: capitalize !important;
+  margin: 15px !important;
+}
+.sendmail_closed .MuiSvgIcon-root {
+  cursor: pointer;
+  width: 15px;
+  margin-left: 5px;
+}
+.sendmail > form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  z-index: 999;
+}
+.sendmail > form > input {
+  height: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+}
+.sendmail_message {
+  flex: 1;
+  height: 300px;
+}
+.sendmail > form > textarea {
+  height: 200px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+}
+.sendmail_error {
+  color: red;
+  text-align: right;
+  padding: 2px;
+}

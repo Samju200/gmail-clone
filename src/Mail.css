@@ -1,0 +1,51 @@
+.mail {
+  flex: 0.8;
+  /* overflow: scroll; */
+}
+.mail_tools {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+.mail_toolsleft {
+  display: flex;
+  align-items: center;
+}
+.mail_body {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  overflow-y: scroll;
+  /* height: 100vh; */
+  margin-left: 30px;
+  margin-top: 50px;
+  overflow: scroll;
+}
+.mail_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mail_header_icon {
+  /* display: flex; */
+  margin-right: 20px;
+}
+.mail_title {
+  display: flex;
+  justify-content: space-between;
+}
+.mail_titleleft {
+  display: flex;
+  align-items: center;
+}
+.mail_titleright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mail_titleleft P {
+  margin-left: 10px;
+}
+.mail_meassage > article {
+  font-size: 14px;
+}
